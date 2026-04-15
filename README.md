@@ -5,6 +5,8 @@
 ![Deployment](https://img.shields.io/badge/deployment-docker-1E3A8A?style=for-the-badge&logo=docker)
 ![Build Status](https://img.shields.io/badge/build-passing-10b981?style=for-the-badge)
 
+![Mock Mitra Hero](docs/assets/screenshots/hero_landing.png)
+
 **Mock Mitra** is a high-rigor, full-stack AI platform designed to bridge the gap between static coding practice and real-world technical interviews. By leveraging the power of **Llama-3.3 (70B Instruct)** via NVIDIA NIM, Mock Mitra provides candidates with a truly adaptive, high-fidelity interview experience that evaluates not just syntax, but architectural logic and professional communication.
 
 ---
@@ -28,6 +30,14 @@ Technical interview preparation is broken. Candidates often spend hundreds of ho
 - 🎨 **Premium Aesthetics**: A stunning, futuristic UI built with Framer Motion and UnicornStudio 3D environments.
 - 🔐 **Secure Authentication**: Robust JWT-based security and password hashing with Bcrypt.
 - 🐳 **One-Click Deployment**: Fully containerized environment using Docker and Docker Compose.
+
+---
+
+## 📺 Demo Walkthrough
+
+![Mock Mitra Walkthrough](docs/assets/recordings/demo_walkthrough.webp)
+
+---
 
 ---
 
