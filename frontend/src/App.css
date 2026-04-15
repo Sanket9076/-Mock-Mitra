@@ -1,0 +1,17 @@
+/* Global Layout Styles */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure smooth scrolling globally */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base selection color to match theme */
+::selection {
+  background-color: rgba(59, 130, 246, 0.3);
+  color: white;
+}

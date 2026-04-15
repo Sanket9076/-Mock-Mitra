@@ -1,0 +1,610 @@
+{
+  "mern": [
+    {
+      "id": 1,
+      "level": "Beg",
+      "question": "What are the four components of MERN?"
+    },
+    {
+      "id": 2,
+      "level": "Beg",
+      "question": "Explain the concept of Virtual DOM in React."
+    },
+    {
+      "id": 3,
+      "level": "Beg",
+      "question": "What is the purpose of Express middleware?"
+    },
+    {
+      "id": 4,
+      "level": "Beg",
+      "question": "How do you handle asynchronous operations in Node.js?"
+    },
+    {
+      "id": 5,
+      "level": "Beg",
+      "question": "What is the difference between state and props in React?"
+    },
+    {
+      "id": 6,
+      "level": "Int",
+      "question": "Explain how React Hooks allow using state in functional components."
+    },
+    {
+      "id": 7,
+      "level": "Int",
+      "question": "Describe the use of MongoDB aggregation pipeline."
+    },
+    {
+      "id": 8,
+      "level": "Int",
+      "question": "What is JWT (JSON Web Token) and how is it used for authentication?"
+    },
+    {
+      "id": 9,
+      "level": "Int",
+      "question": "How do you optimize React application performance?"
+    },
+    {
+      "id": 10,
+      "level": "Int",
+      "question": "Explain the role of the Package.json file in a Node project."
+    },
+    {
+      "id": 11,
+      "level": "Int",
+      "question": "What are Mongoose Schemas and Models?"
+    },
+    {
+      "id": 12,
+      "level": "Int",
+      "question": "Describe the React Context API and when to use it."
+    },
+    {
+      "id": 13,
+      "level": "Int",
+      "question": "What is the purpose of 'useCallback' and how does it prevent re-renders?"
+    },
+    {
+      "id": 14,
+      "level": "Int",
+      "question": "How does Node.js handle heavy CPU-intensive tasks?"
+    },
+    {
+      "id": 15,
+      "level": "Int",
+      "question": "Explain the difference between SQL and NoSQL databases."
+    },
+    {
+      "id": 16,
+      "level": "Expert",
+      "question": "How do React Server Components (RSC) improve performance over SSR?"
+    },
+    {
+      "id": 17,
+      "level": "Expert",
+      "question": "Describe the Node.js Event Loop phases in detail."
+    },
+    {
+      "id": 18,
+      "level": "Expert",
+      "question": "Explain the concept of 'Hydration' in React SSR."
+    },
+    {
+      "id": 19,
+      "level": "Expert",
+      "question": "How do you scale a Node.js application across multiple CPU cores?"
+    },
+    {
+      "id": 20,
+      "level": "Expert",
+      "question": "What is MongoDB Sharding and when do you implement it?"
+    },
+    {
+      "id": 21,
+      "level": "Expert",
+      "question": "Explain the 'Suspense' feature in React and how it works with data fetching."
+    },
+    {
+      "id": 22,
+      "level": "Expert",
+      "question": "Describe the internals of how V8 executes JavaScript in Node.js."
+    },
+    {
+      "id": 23,
+      "level": "Expert",
+      "question": "What are React portals and when should you use them?"
+    },
+    {
+      "id": 24,
+      "level": "Expert",
+      "question": "How do you prevent MongoDB Injection attacks in a MERN app?"
+    },
+    {
+      "id": 25,
+      "level": "Expert",
+      "question": "Explain the difference between useLayoutEffect and useEffect."
+    },
+    {
+      "id": 26,
+      "level": "Expert",
+      "question": "What is the role of Stream API in Node.js and why use it for large files?"
+    },
+    {
+      "id": 27,
+      "level": "Expert",
+      "question": "Describe how React Fiber architecture enables concurrent rendering."
+    },
+    {
+      "id": 28,
+      "level": "Expert",
+      "question": "How do you implement high-availability for a MERN application production environment?"
+    },
+    {
+      "id": 29,
+      "level": "Expert",
+      "question": "Explain the use and performance implications of 'dangerouslySetInnerHTML'."
+    },
+    {
+      "id": 30,
+      "level": "Expert",
+      "question": "What is a 'Higher-Order Component' (HOC) and how does it compare to Hooks for logic reuse?"
+    }
+  ],
+  "backend": [
+    {
+      "id": 1,
+      "level": "Beg",
+      "question": "What is the primary difference between monolithic and microservices architecture?"
+    },
+    {
+      "id": 2,
+      "level": "Beg",
+      "question": "Explain the role of a Load Balancer in a backend system."
+    },
+    {
+      "id": 3,
+      "level": "Beg",
+      "question": "What is an API Gateway and why is it used?"
+    },
+    {
+      "id": 4,
+      "level": "Beg",
+      "question": "Describe the basic structure of a RESTful API request."
+    },
+    {
+      "id": 5,
+      "level": "Beg",
+      "question": "What is the difference between horizontal and vertical scaling?"
+    },
+    {
+      "id": 6,
+      "level": "Int",
+      "question": "Explain the concept of Database Normalization and why it is important."
+    },
+    {
+      "id": 7,
+      "level": "Int",
+      "question": "What are ACID properties in a database transaction?"
+    },
+    {
+      "id": 8,
+      "level": "Int",
+      "question": "How do you implement Rate Limiting in a backend API?"
+    },
+    {
+      "id": 9,
+      "level": "Int",
+      "question": "What is CORS (Cross-Origin Resource Sharing) and how do you handle it?"
+    },
+    {
+      "id": 10,
+      "level": "Int",
+      "question": "Explain the use of 'Index' in a SQL database and its impact on performance."
+    },
+    {
+      "id": 11,
+      "level": "Int",
+      "question": "What is the difference between a session and a cookie for state management?"
+    },
+    {
+      "id": 12,
+      "level": "Int",
+      "question": "Compare gRPC and REST for inter-service communication."
+    },
+    {
+      "id": 13,
+      "level": "Int",
+      "question": "What is a Message Queue and name some popular implementations?"
+    },
+    {
+      "id": 14,
+      "level": "Int",
+      "question": "Explain the 'Service Discovery' pattern in a microservices environment."
+    },
+    {
+      "id": 15,
+      "level": "Int",
+      "question": "What are the common strategies for Database Partitioning?"
+    },
+    {
+      "id": 16,
+      "level": "Expert",
+      "question": "Describe the 'Saga Pattern' for managing distributed transactions."
+    },
+    {
+      "id": 17,
+      "level": "Expert",
+      "question": "Explain the CAP theorem and its implications on system design."
+    },
+    {
+      "id": 18,
+      "level": "Expert",
+      "question": "How do you handle 'Hot Keys' in a localized caching system like Redis?"
+    },
+    {
+      "id": 19,
+      "level": "Expert",
+      "question": "Explain 'Eventual Consistency' and how it differs from 'Strong Consistency'."
+    },
+    {
+      "id": 20,
+      "level": "Expert",
+      "question": "Describe the architecture and use cases for CQRS (Command Query Responsibility Segregation)."
+    },
+    {
+      "id": 21,
+      "level": "Expert",
+      "question": "What is the purpose of 'Idempotency' in API design and how do you implement it?"
+    },
+    {
+      "id": 22,
+      "level": "Expert",
+      "question": "Explain the concept of 'Zero Downtime Deployment' and techniques to achieve it."
+    },
+    {
+      "id": 23,
+      "level": "Expert",
+      "question": "Describe the 'Circuit Breaker' pattern and its benefits in microservices."
+    },
+    {
+      "id": 24,
+      "level": "Expert",
+      "question": "How do you optimize a database for write-heavy vs. read-heavy workloads?"
+    },
+    {
+      "id": 25,
+      "level": "Expert",
+      "question": "Explain the 'Outbox Pattern' for reliable messaging between a DB and a Message Broker."
+    },
+    {
+      "id": 26,
+      "level": "Expert",
+      "question": "What is 'Distributed Tracing' and how does it help in debugging microservices?"
+    },
+    {
+      "id": 27,
+      "level": "Expert",
+      "question": "Describe the difference between OAuth2 'Authorization Code' and 'Client Credentials' flows."
+    },
+    {
+      "id": 28,
+      "level": "Expert",
+      "question": "Explain 'Database connection pooling' and why it is necessary."
+    },
+    {
+      "id": 29,
+      "level": "Expert",
+      "question": "How do you design a system to handle 1 million concurrent WebSocket connections?"
+    },
+    {
+      "id": 30,
+      "level": "Expert",
+      "question": "Explain the concept of 'Service Mesh' (e.g., Istio) and its core features."
+    }
+  ],
+  "java": [
+    {
+      "id": 1,
+      "level": "Beg",
+      "question": "What is the difference between JDK, JRE, and JVM?"
+    },
+    {
+      "id": 2,
+      "level": "Beg",
+      "question": "Explain the concept of 'Inheritance' in Java."
+    },
+    {
+      "id": 3,
+      "level": "Beg",
+      "question": "What is the purpose of the 'static' keyword in Java?"
+    },
+    {
+      "id": 4,
+      "level": "Beg",
+      "question": "What are the common Java Access Modifiers?"
+    },
+    {
+      "id": 5,
+      "level": "Beg",
+      "question": "Explain the difference between '==' and '.equals()' in Java."
+    },
+    {
+      "id": 6,
+      "level": "Int",
+      "question": "What is the Java Collection Framework and name some core interfaces?"
+    },
+    {
+      "id": 7,
+      "level": "Int",
+      "question": "Explain 'Auto-configuration' in Spring Boot."
+    },
+    {
+      "id": 8,
+      "level": "Int",
+      "question": "How does Hibernate handle Lazy Loading?"
+    },
+    {
+      "id": 9,
+      "level": "Int",
+      "question": "What is the purpose of '@RestController' in Spring?"
+    },
+    {
+      "id": 10,
+      "level": "Int",
+      "question": "Explain the difference between Checked and Unchecked Exceptions."
+    },
+    {
+      "id": 11,
+      "level": "Int",
+      "question": "What is Dependency Injection (DI) and how is it implemented in Spring?"
+    },
+    {
+      "id": 12,
+      "level": "Int",
+      "question": "Describe the lifecycle of a Spring Bean."
+    },
+    {
+      "id": 13,
+      "level": "Int",
+      "question": "How do you achieve thread safety in Java?"
+    },
+    {
+      "id": 14,
+      "level": "Int",
+      "question": "Explain the '@Transactional' annotation in Spring."
+    },
+    {
+      "id": 15,
+      "level": "Int",
+      "question": "What are Java Streams and why are they used?"
+    },
+    {
+      "id": 16,
+      "level": "Expert",
+      "question": "Explain the Java Memory Model (JMM) and the 'volatile' keyword."
+    },
+    {
+      "id": 17,
+      "level": "Expert",
+      "question": "Describe how the G1 Garbage Collector (G1GC) works."
+    },
+    {
+      "id": 18,
+      "level": "Expert",
+      "question": "Explain the 'N+1 Select Problem' in JPA and how to solve it."
+    },
+    {
+      "id": 19,
+      "level": "Expert",
+      "question": "What are Java Virtual Threads (Project Loom) and their advantages?"
+    },
+    {
+      "id": 20,
+      "level": "Expert",
+      "question": "How do you implement a Custom Annotation in Java and process it at runtime?"
+    },
+    {
+      "id": 21,
+      "level": "Expert",
+      "question": "Explain the internal working of ConcurrentHashMap in Java 8+."
+    },
+    {
+      "id": 22,
+      "level": "Expert",
+      "question": "What is the 'Double-Checked Locking' pattern for Singleton and why is it tricky?"
+    },
+    {
+      "id": 23,
+      "level": "Expert",
+      "question": "Describe the difference between 'CompletableFuture' and 'Future' in Java."
+    },
+    {
+      "id": 24,
+      "level": "Expert",
+      "question": "How do you tune JVM performance in a high-concurrency production environment?"
+    },
+    {
+      "id": 25,
+      "level": "Expert",
+      "question": "Explain the concept of 'Classloading' and the 'Parent Delegation Model'."
+    },
+    {
+      "id": 26,
+      "level": "Expert",
+      "question": "What is the 'Liskov Substitution Principle' (LSP) and how is it violated in Java?"
+    },
+    {
+      "id": 27,
+      "level": "Expert",
+      "question": "How does Spring Boot handle 'Context Refresh' and what event is triggered?"
+    },
+    {
+      "id": 28,
+      "level": "Expert",
+      "question": "Describe the 'Externalized Configuration' pattern in Spring Boot."
+    },
+    {
+      "id": 29,
+      "level": "Expert",
+      "question": "What is the 'Aspect-Oriented Programming' (AOP) in Spring and how are 'JoinPoints' used?"
+    },
+    {
+      "id": 30,
+      "level": "Expert",
+      "question": "Explain 'Strong', 'Soft', 'Weak', and 'Phantom' references in Java."
+    }
+  ],
+  "data_analyst": [
+    {
+      "id": 1,
+      "level": "Beg",
+      "question": "What is the difference between Mean, Median, and Mode?"
+    },
+    {
+      "id": 2,
+      "level": "Beg",
+      "question": "Explain the difference between a Left Join and an Inner Join in SQL."
+    },
+    {
+      "id": 3,
+      "level": "Beg",
+      "question": "What is a 'DataFrame' in Pandas?"
+    },
+    {
+      "id": 4,
+      "level": "Beg",
+      "question": "What is the purpose of Data Normalization?"
+    },
+    {
+      "id": 5,
+      "level": "Beg",
+      "question": "How do you handle missing values in a dataset?"
+    },
+    {
+      "id": 6,
+      "level": "Int",
+      "question": "Explain the difference between Overfitting and Underfitting."
+    },
+    {
+      "id": 7,
+      "level": "Int",
+      "question": "What are SQL Window Functions and name a common use case?"
+    },
+    {
+      "id": 8,
+      "level": "Int",
+      "question": "What is a P-value in statistics?"
+    },
+    {
+      "id": 9,
+      "level": "Int",
+      "question": "Describe the difference between Correlation and Causation."
+    },
+    {
+      "id": 10,
+      "level": "Int",
+      "question": "What is the 'Central Limit Theorem' (CLT)?"
+    },
+    {
+      "id": 11,
+      "level": "Int",
+      "question": "Explain the use of 'GROUP BY' and 'HAVING' in SQL."
+    },
+    {
+      "id": 12,
+      "level": "Int",
+      "question": "How do you detect outliers in a dataset?"
+    },
+    {
+      "id": 13,
+      "level": "Int",
+      "question": "What is A/B Testing and how do you evaluate the results?"
+    },
+    {
+      "id": 14,
+      "level": "Int",
+      "question": "Explain the concept of 'Dimensionality Reduction' (e.g., PCA)."
+    },
+    {
+      "id": 15,
+      "level": "Int",
+      "question": "What is the difference between supervised and unsupervised learning?"
+    },
+    {
+      "id": 16,
+      "level": "Expert",
+      "question": "Explain the 'Bias-Variance Tradeoff' in machine learning."
+    },
+    {
+      "id": 17,
+      "level": "Expert",
+      "question": "What are SQL Common Table Expressions (CTEs) and why use them over subqueries?"
+    },
+    {
+      "id": 18,
+      "level": "Expert",
+      "question": "Describe the impact of Multi-collinearity on a Linear Regression model."
+    },
+    {
+      "id": 19,
+      "level": "Expert",
+      "question": "What is 'Simpson's Paradox' in data analysis?"
+    },
+    {
+      "id": 20,
+      "level": "Expert",
+      "question": "Explain the 'Law of Large Numbers' and its importance."
+    },
+    {
+      "id": 21,
+      "level": "Expert",
+      "question": "How do you optimize a SQL query that processes millions of rows?"
+    },
+    {
+      "id": 22,
+      "level": "Expert",
+      "question": "What is a Confusion Matrix and name the metrics derived from it?"
+    },
+    {
+      "id": 23,
+      "level": "Expert",
+      "question": "Explain 'Bayes' Theorem' and how it is applied in Naive Bayes classifiers."
+    },
+    {
+      "id": 24,
+      "level": "Expert",
+      "question": "Describe the difference between L1 (Lasso) and L2 (Ridge) Regularization."
+    },
+    {
+      "id": 25,
+      "level": "Expert",
+      "question": "What is 'Data Leakage' and how do you prevent it?"
+    },
+    {
+      "id": 26,
+      "level": "Expert",
+      "question": "Explain the concept of 'Categorical Encoding' and when to use One-Hot vs. Label Encoding."
+    },
+    {
+      "id": 27,
+      "level": "Expert",
+      "question": "What is the 'Long Tail' distribution and why is it common in e-commerce data?"
+    },
+    {
+      "id": 28,
+      "level": "Expert",
+      "question": "Describe 'Time Series Decomposition' and its components."
+    },
+    {
+      "id": 29,
+      "level": "Expert",
+      "question": "How do you calculate the 'Lift' and 'Confidence' in market basket analysis?"
+    },
+    {
+      "id": 30,
+      "level": "Expert",
+      "question": "Explain 'ANOVA' (Analysis of Variance) and when it is used."
+    }
+  ]
+}

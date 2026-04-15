@@ -1,0 +1,36 @@
+name: codegenius
+
+services:
+  database:
+    image: mongo:latest
+    container_name: codegenius-db
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    restart: always
+
+  backend:
+    build: ./node-backend
+    container_name: mock_mitra_api
+    ports:
+      - "8080:8080"
+    environment:
+      - MONGO_URI=mongodb://database:27017/mock_mitra
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - PORT=8080
+    depends_on:
+      - database
+    restart: always
+
+  frontend:
+    build: ./frontend
+    container_name: codegenius-app
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: always
+
+volumes:
+  mongo-data:
