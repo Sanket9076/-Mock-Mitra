@@ -180,17 +180,5 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ---
 
-## 📄 License
-Distributed under the **MIT License**. See `LICENSE` for more information.
-
----
-
-## 👨‍💻 Contact & Author
-**Mock Mitra Team**  
-Email: [support@mockmitra.ai](mailto:support@mockmitra.ai)  
-Project Link: [https://github.com/your-username/MockMitra](https://github.com/your-username/MockMitra)
-
----
-<p align="center">
   Built with ❤️ for the technical community.
 </p>
