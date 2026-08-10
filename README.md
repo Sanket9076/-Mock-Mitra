@@ -49,7 +49,7 @@ Mock Mitra follows a modern, decoupled architecture designed for scale and low-l
 graph TD
     User((User)) -->|HTTPS| Frontend[React Desktop App]
     Frontend -->|API Requests| Gateway[Nginx Proxy]
-    Gateway -->|Auth / Interview| Backend[Node.js Express Server]
+    Gateway -->|Auth / Interview| Backend[Spring Boot REST Server]
     Backend -->|Model Queries| AI[NVIDIA NIM / Llama-3]
     Backend -->|Data Persistence| DB[(MongoDB)]
 ```
@@ -75,8 +75,8 @@ graph TD
 ### Backend
 | Tech | Icon | Purpose |
 | :--- | :--- | :--- |
-| **Node.js** | ![Node](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs) | Scalable runtime for the interview engine. |
-| **Express** | ![Express](https://img.shields.io/badge/Express-000000?logo=express) | RESTful API architecture. |
+| **Java 21 / Spring Boot 3** | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot) | Enterprise RESTful service runtime for the interview engine. |
+| **Spring Security & Web** | ![Spring](https://img.shields.io/badge/Spring_Security-6DB33F?logo=springsecurity) | Robust authentication, JWT handling, and API routing. |
 | **MongoDB** | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb) | Flexible schema storage for users and interview transcripts. |
 | **NVIDIA NIM** | ![AI](https://img.shields.io/badge/NVIDIA_NIM-76B900?logo=nvidia) | Low-latency inference for Llama-3.3-70B model. |
 
@@ -92,9 +92,9 @@ graph TD
 │   │   ├── api             # Axios instance and config
 │   │   └── assets          # Images and branding files
 │   └── public              # Static assets and index.html
-├── node-backend            # Express Server
-│   ├── data                # Local question benchmarks
-│   └── server.js           # Core logic, AI prompts, and DB setup
+├── springboot-backend      # Spring Boot Enterprise Application
+│   ├── src/main/java       # Controllers, Services, Models, Security & Config
+│   └── src/main/resources  # application.properties & benchmarks
 ├── docker-compose.yml      # Multi-container orchestration
 └── .env.example            # Environment template
 ```

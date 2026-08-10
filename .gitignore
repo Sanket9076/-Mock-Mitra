@@ -23,7 +23,6 @@ yarn-error.log*
 
 # Misc
 .DS_Store
-.vscode/
 .idea/
 *.suo
 *.ntvs*
